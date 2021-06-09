@@ -1,4 +1,60 @@
-body {
+body{
+    font-size:1.5em;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*  header box START*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    height: 100px;
+}
+nav a {
+    color: black;
+    font-size:1.3em;
+    margin-left: 20px;
+}
+/*header box END*/
+header+div{
+    border: 1px solid teal;
+    text-align: center;
+    height: 430px;
+    padding-top: 60px;
+    background: url("img/la-chouette-agence-banniere-rognee.jpg") no-repeat;
+    background-position: center;
+}
+header + div h1{
+    font-size: 1.7em;
+    color:#f35b14;
+    margin-bottom: 40px;
+}
+header + div a{
+    background-color: #f35b14;
+    display: inline-block;
+    min-width:8em;
+    height: 2em;
+    padding-top:0.3em;
+    border-radius: 50px;
+    color:white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*body {
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -696,7 +752,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -1034,4 +1090,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
+}*/
