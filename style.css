@@ -5,7 +5,9 @@ body{
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-align: center;
 }
+
 /*  header box START*/
 header{
     display: flex;
@@ -19,12 +21,11 @@ nav a {
     margin-left: 20px;
 }
 /*header box END*/
+/*bloc-presentation START*/
 header+div{
-    border: 1px solid teal;
-    text-align: center;
     height: 430px;
     padding-top: 60px;
-    background: url("img/la-chouette-agence-banniere-rognee.jpg") no-repeat;
+    background: url("img/texture-paper.png") repeat-x, url("img/la-chouette-agence-banniere-rognee.jpg") no-repeat;
     background-position: center;
 }
 header + div h1{
@@ -32,8 +33,9 @@ header + div h1{
     color:#f35b14;
     margin-bottom: 40px;
 }
-header + div a{
+header + div button{
     background-color: #f35b14;
+    border: none;
     display: inline-block;
     min-width:8em;
     height: 2em;
@@ -42,6 +44,23 @@ header + div a{
     color:white;
     font-size: 1.5em;
     text-transform: uppercase;
+}
+/*bloc-presentation END*/
+/*bloc-services START*/
+section{
+    border:1px solid green;
+}
+services p{
+    font-size: 1.5em;
+}
+.services__div{
+    display: flex;
+    max-width: 1000px;
+    border:1px solid green;
+    margin: 0 auto;
+}
+section div p{
+    font-size: 1em;
 }
 
 
