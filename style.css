@@ -55,6 +55,24 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+#bloc-7{
+    width: 50%;
+    margin: 0 auto;
+    border-left:1px solid rgba(0, 0, 0, .3);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+}
+input{
+    display:block;
+    width: 300px; 
+}
+input,textarea{
+    margin:20px;
+}
+form button{
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+}
 
 .bg-center,
 .bg-l-edge,
@@ -176,7 +194,7 @@ a:hover {
 }
 
 .d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: #000;
 }
 
 .d-bloc .panel .a-btn {
