@@ -640,7 +640,6 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -699,9 +698,12 @@ p {
     margin: auto;
 }
 
-h2 {
+h2, #bloc-5-cta h2 {
     font-size: 22px;
     line-height: 1.4em;
+}
+#bloc-5-cta h2{
+    font-size: 30px;
 }
 
 h3 {
@@ -730,8 +732,8 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.footer-clr {
+    color: #000!important;
 }
 
 .portfolio-thumb {
