@@ -55,6 +55,11 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+#bloc-6 p, #bloc-6 h1{
+color: #000;
+text-align: center;
+padding-left: 150px;
+}
 #bloc-7{
     width: 50%;
     margin: 0 auto;
