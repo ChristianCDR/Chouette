@@ -57,6 +57,7 @@ a:hover {
 }
 .page2 p{
 font-size: 19px;
+color: #000;
 }
 #bloc-0{
     width: auto;
@@ -74,11 +75,18 @@ color: #000;
 text-align: center;
 padding-left: 150px;
 }
-#bloc-7{
+.bg__form{
+background: url("img/texture-paper.png");
+background-size:200px 100px;
+
+}
+.bloc-7{
     width: 50%;
     margin: 0 auto;
     border-left:1px solid rgba(0, 0, 0, .3);
     border-right: 1px solid rgba(0, 0, 0, .3);
+    box-shadow: -10px 0 10px grey, 10px 0 10px grey;
+
 }
 input{
     display:block;
@@ -87,15 +95,27 @@ input{
 input,textarea{
     margin:20px;
 }
-form button{
-    display: inline-block;
-    margin: 0 auto;
-    color: white;
+input,textarea,label{
+margin-left: 50px;
+color: black;
+}
+form .cta-hero{
+    margin-left:37%;
 }
 #bloc-8 p{
     text-align: center;
-}
+    margin-top:0;
+    padding-top: 20px;
 
+}
+#footer__paragraph{
+display: flex;
+justify-content: center;
+}
+#footer__paragraph p{
+    border-right: 2px solid black;
+    padding: 10px;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
