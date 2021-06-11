@@ -55,6 +55,20 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+.page2 p{
+font-size: 19px;
+}
+#bloc-0{
+    width: auto;
+}
+#bloc-0 a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+#bloc-0 li{
+    list-style-type: none;
+    margin-bottom: 50px;
+}
 #bloc-6 p, #bloc-6 h1{
 color: #000;
 text-align: center;
@@ -77,6 +91,9 @@ form button{
     display: inline-block;
     margin: 0 auto;
     color: white;
+}
+#bloc-8 p{
+    text-align: center;
 }
 
 .bg-center,
