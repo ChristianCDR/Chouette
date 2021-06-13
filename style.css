@@ -91,18 +91,18 @@ input{
 }
 input,textarea{
     margin:20px;
+    max-width: 500px;
 }
 input,textarea,label{
-margin-left: 50px;
+margin-left: 30px;
 color: black;
 }
 form{
-    border: 5px solid green;
-
+    width:580px;
 }
 form .cta-hero{
     display:block;
-    margin-left: 50%;
+    margin-left: 33%;
     width: 10em;
 }
 #bloc-8 p{
