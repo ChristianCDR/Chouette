@@ -68,17 +68,14 @@ color: #000;
 }
 #bloc-0 li{
     list-style-type: none;
-    margin-bottom: 50px;
 }
 #bloc-6 p, #bloc-6 h1{
-color: #000;
 text-align: center;
-padding-left: 150px;
+color: #000;
 }
 .bg__form{
 background: url("img/texture-paper.png");
 background-size:200px 100px;
-
 }
 .bloc-7{
     width: 50%;
@@ -99,22 +96,30 @@ input,textarea,label{
 margin-left: 50px;
 color: black;
 }
-form .cta-hero{
-    margin-left:37%;
-}
-#bloc-8 p{
-    text-align: center;
-    margin-top:0;
-    padding-top: 20px;
+form{
+    border: 5px solid green;
 
 }
+form .cta-hero{
+    display:block;
+    margin-left: 50%;
+    width: 10em;
+}
+#bloc-8 p{
+    margin:0;
+    padding-top: 20px;
+    width: 100%;
+}
 #footer__paragraph{
-display: flex;
-justify-content: center;
+    display: flex;
+    width: 100%;
+
 }
 #footer__paragraph p{
     border-right: 2px solid black;
-    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 30px 0;
 }
 .bg-center,
 .bg-l-edge,
