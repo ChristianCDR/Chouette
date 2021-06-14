@@ -83,22 +83,18 @@ background-size:200px 100px;
     border-left:1px solid rgba(0, 0, 0, .3);
     border-right: 1px solid rgba(0, 0, 0, .3);
     box-shadow: -10px 0 10px grey, 10px 0 10px grey;
-
-}
-input{
-    display:block;
-    width: 300px; 
 }
 input,textarea{
     margin:20px;
-    max-width: 500px;
+    max-width: 90%;
 }
 input,textarea,label{
 margin-left: 30px;
 color: black;
 }
 form{
-    width:580px;
+    margin: 50px 0;
+    width:215%;
 }
 form .cta-hero{
     display:block;
@@ -958,7 +954,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1095,6 +1091,42 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bloc-7{
+        width: 50%;
+        height: 970px;
+        margin: 0 auto;
+        border-left:1px solid rgba(0, 0, 0, .3);
+        border-right: 1px solid rgba(0, 0, 0, .3);
+        box-shadow: -10px 0 10px grey, 10px 0 10px grey;
+        position: relative;
+    }
+    input,textarea{
+        margin:20px;
+        max-width: 50%;
+    }
+    input,textarea,label{
+    margin-left: 30px;
+    color: black;
+    }
+    form{
+        position:absolute;
+        border: 1px solid black;
+        display:block;
+        margin:0;
+    }
+    form .cta-hero{
+        display:block;
+        margin-left: 33%;
+        width: 10em;
+    }
+    #footer__paragraph{
+        display: block;
+    }
+    #footer__paragraph p{
+        border: none;
+        margin: 10px auto;
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1104,7 +1136,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .bloc-mob-center-text {
         text-align: center;
     }
