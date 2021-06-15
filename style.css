@@ -909,27 +909,6 @@ h4 {
 }
 
 @media (min-width: 768px) and (max-width: 992px)  {
-    .navbar .nav {
-        max-width: 80%
-    }
-    .nav-center.navbar .nav {
-        max-width: 100%
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -951,9 +930,27 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
     }
+    .navbar .nav {
+        max-width: 80%
+    }
+    .nav-center.navbar .nav {
+        max-width: 100%
+    }
 }
 
-@media screen and (min-width: 400px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .b-parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .b-parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 767.9px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1109,7 +1106,6 @@ h4 {
      form{
          margin: 50px 0;
          width:100%;
-         border: 1px solid red;
      }
      form .cta-hero{
          display:block;
@@ -1145,7 +1141,6 @@ h4 {
     form{
         margin: 50px 0;
         width:100%;
-        border: 1px solid red;
     }
     form .cta-hero{
         display:block;
