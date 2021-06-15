@@ -939,6 +939,18 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    #footer__paragraph{
+        display: block;
+        padding-top:10px;
+    }
+    #footer__paragraph :nth-child(1){
+        margin-top: 50px;
+    }
+    #footer__paragraph p{
+        border: none;
+        margin: auto;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
