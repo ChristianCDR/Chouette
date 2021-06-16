@@ -15,7 +15,6 @@ button {
 
 a:hover {
     text-decoration: none;
-    cursor: pointer;
 }
 .col-sm-6 img{
     margin:0 auto;
@@ -1159,6 +1158,9 @@ h4 {
         display:block;
         margin-left: 33%;
         width: 10em;
+    }
+    form .cta-hero :active{
+        color:white;
     }
     #footer__paragraph{
         display: block;
