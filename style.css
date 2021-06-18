@@ -610,13 +610,13 @@ a[data-lightbox]:hover img {
     align-items: center;
 }
 
-#lightbox-modal .modal-dialog {
+#lightbox-modal{
     width: 90%;
     max-width: 900px;
     margin: 0 auto 0;
 }
 
-#lightbox-modal .modal-dialog img {
+#lightbox-modal img {
     max-height: 90vh;
     margin: 0 auto;
 }
@@ -674,7 +674,7 @@ a[data-lightbox]:hover img {
     left: 25px;
 }
 
-.snapshot-lb .modal-body {
+.snapshot-lb{
     padding-bottom: 45px;
 }
 
