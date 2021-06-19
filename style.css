@@ -3,8 +3,6 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 a,
@@ -35,9 +33,8 @@ a:hover {
     background: 50% 50% no-repeat;
     padding: 0 50px;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
     position: relative;
 }
 
@@ -129,9 +126,8 @@ form .cta-hero{
 .bg-br-edge,
 .bg-repeat {
     -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
     background-size: auto!important;
+    -o-background-size: auto!important;
 }
 
 .bg-repeat {
@@ -550,11 +546,6 @@ button {
 .sm-shadow {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
-.form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
-}
-
 .scrollToTop {
     width: 40px;
     height: 40px;
